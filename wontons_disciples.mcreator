@@ -10,9 +10,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
+          "src/main/resources/data/wontons_disciples/forge/biome_modifier/wontoniumore_biome_modifier.json",
           "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
-          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java"
+          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java",
+          "src/main/resources/data/wontons_disciples/worldgen/configured_feature/wontoniumore.json",
+          "src/main/resources/data/wontons_disciples/worldgen/placed_feature/wontoniumore.json"
         ]
       },
       "path": "~/Blocks"
@@ -43,6 +46,38 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Wieldirium",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wieldirium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wontons_disciples/models/block/wieldirium.json",
+          "src/main/java/net/mcreator/wontonsdisciples/block/WieldiriumBlock.java",
+          "src/main/resources/assets/wontons_disciples/models/item/wieldirium.json",
+          "src/main/resources/assets/wontons_disciples/blockstates/wieldirium.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Wielderium",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wielderium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wontons_disciples/models/item/wielderium.json",
+          "src/main/java/net/mcreator/wontonsdisciples/item/WielderiumItem.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -50,8 +85,7 @@
   "language_map": {
     "en_us": {
       "item_group.wontons_disciples.wontonscollectibles": "Wonton\u0027s Collectibles",
-      "block.wontons_disciples.wontoniumore": "Wontonium Ore",
-      "item.wontons_disciples.raw_wontonium": "Raw Wontonium"
+      "block.wontons_disciples.wontoniumore": "Wontonium Ore"
     }
   },
   "foldersRoot": {
@@ -74,6 +108,10 @@
           },
           {
             "name": "Others",
+            "children": []
+          },
+          {
+            "name": "Recipies",
             "children": []
           }
         ]

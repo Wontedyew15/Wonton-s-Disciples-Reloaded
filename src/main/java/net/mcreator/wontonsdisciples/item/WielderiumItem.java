@@ -4,15 +4,9 @@ package net.mcreator.wontonsdisciples.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import javax.annotation.Nullable;
 
-public class RawWontoniumItem extends Item {
-	public RawWontoniumItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
+public class WielderiumItem extends Item {
+	public WielderiumItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(2f).build()));
 	}
 
 	@Override

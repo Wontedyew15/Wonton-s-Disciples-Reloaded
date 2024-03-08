@@ -20,6 +20,8 @@ public class WontonsDisciplesModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.wontons_disciples.wontonscollectibles")).icon(() -> new ItemStack(WontonsDisciplesModBlocks.WONTONIUMORE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(WontonsDisciplesModBlocks.WONTONIUMORE.get().asItem());
 				tabData.accept(WontonsDisciplesModItems.RAW_WONTONIUM.get());
+				tabData.accept(WontonsDisciplesModBlocks.WIELDIRIUM.get().asItem());
+				tabData.accept(WontonsDisciplesModItems.WIELDERIUM.get());
 			})
 
 					.build());
