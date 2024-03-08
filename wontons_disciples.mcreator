@@ -9,10 +9,13 @@
       "registry_name": "wontoniumore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json",
-          "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
+          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java",
+          "src/main/resources/data/wontons_disciples/worldgen/configured_feature/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
-          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java"
+          "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
+          "src/main/resources/data/wontons_disciples/worldgen/placed_feature/wontoniumore.json",
+          "src/main/resources/data/wontons_disciples/forge/biome_modifier/wontoniumore_biome_modifier.json",
+          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
         ]
       },
       "path": "~/Blocks"
@@ -39,9 +42,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/wontonsdisciples/block/WieldiriumBlock.java",
+          "src/main/resources/assets/wontons_disciples/models/block/wieldirium.json",
           "src/main/resources/assets/wontons_disciples/blockstates/wieldirium.json",
-          "src/main/resources/assets/wontons_disciples/models/item/wieldirium.json",
-          "src/main/resources/assets/wontons_disciples/models/block/wieldirium.json"
+          "src/main/resources/assets/wontons_disciples/models/item/wieldirium.json"
         ]
       },
       "path": "~/Blocks"
@@ -55,8 +58,8 @@
       "registry_name": "wielderium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/wontonsdisciples/item/WielderiumItem.java",
-          "src/main/resources/assets/wontons_disciples/models/item/wielderium.json"
+          "src/main/resources/assets/wontons_disciples/models/item/wielderium.json",
+          "src/main/java/net/mcreator/wontonsdisciples/item/WielderiumItem.java"
         ]
       },
       "path": "~/Items"
@@ -91,11 +94,11 @@
             "children": []
           },
           {
-            "name": "Recipies",
+            "name": "Others",
             "children": []
           },
           {
-            "name": "Others",
+            "name": "Recipies",
             "children": []
           }
         ]
