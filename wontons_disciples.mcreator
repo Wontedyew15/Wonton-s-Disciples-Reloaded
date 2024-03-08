@@ -3,6 +3,7 @@
     {
       "name": "Wontoniumore",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wontoniumore",
@@ -13,17 +14,20 @@
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Wontonscollectibles",
       "type": "tab",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wontonscollectibles",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Miscelanious/Others"
     }
   ],
   "variable_elements": [],
@@ -35,11 +39,7 @@
     "name": "~",
     "children": [
       {
-        "name": "particles",
-        "children": []
-      },
-      {
-        "name": "entities",
+        "name": "Entities",
         "children": []
       },
       {
@@ -47,20 +47,29 @@
         "children": []
       },
       {
-        "name": "textures",
+        "name": "Textures",
         "children": []
       },
       {
-        "name": "items",
+        "name": "Items",
         "children": []
       },
       {
-        "name": "loot tables",
-        "children": []
-      },
-      {
-        "name": "blocks",
-        "children": []
+        "name": "Miscelanious",
+        "children": [
+          {
+            "name": "Loot Tables",
+            "children": []
+          },
+          {
+            "name": "Particles",
+            "children": []
+          },
+          {
+            "name": "Others",
+            "children": []
+          }
+        ]
       }
     ]
   },
