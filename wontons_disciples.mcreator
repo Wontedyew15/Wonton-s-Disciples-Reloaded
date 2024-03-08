@@ -30,7 +30,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Miscelanious/Others"
+      "path": "~/miscellaneous/Others"
     },
     {
       "name": "RawWontonium",
@@ -78,6 +78,20 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Wontoniumoreloottable",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wontoniumoreloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wontons_disciples/loot_tables/blocks/wontoniumoreloottable.json"
+        ]
+      },
+      "path": "~/miscellaneous/Loot Tables"
     }
   ],
   "variable_elements": [],
@@ -96,7 +110,7 @@
         "children": []
       },
       {
-        "name": "Miscelanious",
+        "name": "miscellaneous",
         "children": [
           {
             "name": "Loot Tables",
