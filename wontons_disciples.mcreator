@@ -37,7 +37,20 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "textures",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "wontons_disciples",
