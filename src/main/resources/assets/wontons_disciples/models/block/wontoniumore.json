@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wontons_disciples:block/wontonium_ore_face",
+    "particle": "wontons_disciples:block/wontonium_ore_face"
+  },
+  "render_type": "solid"
+}

@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Wontoniumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wontoniumore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java",
+          "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
+          "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
+          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.wontons_disciples.wontoniumore": "Wontonium Ore"
+    }
   },
   "foldersRoot": {
     "name": "~",
