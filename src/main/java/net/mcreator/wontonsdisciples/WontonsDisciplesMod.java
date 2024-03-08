@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.wontonsdisciples.init.WontonsDisciplesModTabs;
 import net.mcreator.wontonsdisciples.init.WontonsDisciplesModItems;
 import net.mcreator.wontonsdisciples.init.WontonsDisciplesModBlocks;
 
@@ -53,6 +54,8 @@ public class WontonsDisciplesMod {
 		WontonsDisciplesModBlocks.REGISTRY.register(bus);
 
 		WontonsDisciplesModItems.REGISTRY.register(bus);
+
+		WontonsDisciplesModTabs.REGISTRY.register(bus);
 
 	}
 

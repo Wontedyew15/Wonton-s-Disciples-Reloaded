@@ -3,6 +3,7 @@
     {
       "name": "Wontoniumore",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wontoniumore",
@@ -18,6 +19,7 @@
     {
       "name": "Wontonscollectibles",
       "type": "tab",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wontonscollectibles",
@@ -29,7 +31,9 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.wontons_disciples.wontoniumore": "Wontonium Ore"
+    }
   },
   "foldersRoot": {
     "name": "~",
