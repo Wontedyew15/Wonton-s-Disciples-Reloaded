@@ -49,6 +49,18 @@
       {
         "name": "textures",
         "children": []
+      },
+      {
+        "name": "entities",
+        "children": []
+      },
+      {
+        "name": "particles",
+        "children": []
+      },
+      {
+        "name": "loot tables",
+        "children": []
       }
     ]
   },
