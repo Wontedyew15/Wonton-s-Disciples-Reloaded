@@ -33,7 +33,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "wontons_disciples",
