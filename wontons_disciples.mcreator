@@ -14,7 +14,8 @@
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Wontonscollectibles",
@@ -25,13 +26,15 @@
       "registry_name": "wontonscollectibles",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Miscelanious/Others"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item_group.wontons_disciples.wontonscollectibles": "Wonton\u0027s Collectibles",
       "block.wontons_disciples.wontoniumore": "Wontonium Ore"
     }
   },
