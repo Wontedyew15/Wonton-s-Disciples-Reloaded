@@ -10,8 +10,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java",
+          "src/main/resources/data/wontons_disciples/worldgen/configured_feature/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
+          "src/main/resources/data/wontons_disciples/worldgen/placed_feature/wontoniumore.json",
+          "src/main/resources/data/wontons_disciples/forge/biome_modifier/wontoniumore_biome_modifier.json",
           "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
         ]
       },

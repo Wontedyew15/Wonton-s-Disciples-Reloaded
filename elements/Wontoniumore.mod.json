@@ -37,8 +37,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 25.0,
+    "resistance": 1200.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -77,7 +77,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 4,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -119,17 +119,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
+    "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": -64,
     "maxGenerateHeight": 64
   }
 }
