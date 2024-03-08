@@ -31,14 +31,48 @@
         "files": []
       },
       "path": "~/Miscelanious/Others"
+    },
+    {
+      "name": "Wieldirium",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wieldirium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wontonsdisciples/block/WieldiriumBlock.java",
+          "src/main/resources/assets/wontons_disciples/models/block/wieldirium.json",
+          "src/main/resources/assets/wontons_disciples/blockstates/wieldirium.json",
+          "src/main/resources/assets/wontons_disciples/models/item/wieldirium.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Wielderium",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wielderium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wontons_disciples/models/item/wielderium.json",
+          "src/main/java/net/mcreator/wontonsdisciples/item/WielderiumItem.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.wontons_disciples.wielderium": "Wielderium",
       "item_group.wontons_disciples.wontonscollectibles": "Wonton\u0027s Collectibles",
-      "block.wontons_disciples.wontoniumore": "Wontonium Ore"
+      "block.wontons_disciples.wontoniumore": "Wontonium Ore",
+      "block.wontons_disciples.wieldirium": "Wieldirium"
     }
   },
   "foldersRoot": {
@@ -61,6 +95,10 @@
           },
           {
             "name": "Others",
+            "children": []
+          },
+          {
+            "name": "Recipies",
             "children": []
           }
         ]
