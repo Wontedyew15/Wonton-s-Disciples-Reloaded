@@ -110,7 +110,8 @@
         "files": [
           "src/main/resources/data/wontons_disciples/loot_tables/blocks/wontoniumoreloottable.json"
         ]
-      }
+      },
+      "path": "~/Miscelanious/Loot Tables"
     }
   ],
   "variable_elements": [],

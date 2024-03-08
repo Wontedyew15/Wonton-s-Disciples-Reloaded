@@ -1,4 +1,7 @@
 {
+  "item.wontons_disciples.wielderium": "Wielderium",
   "item_group.wontons_disciples.wontonscollectibles": "Wonton\u0027s Collectibles",
-  "block.wontons_disciples.wontoniumore": "Wontonium Ore"
+  "block.wontons_disciples.wontoniumore": "Wontonium Ore",
+  "item.wontons_disciples.raw_wontonium": "Raw Wontonium",
+  "block.wontons_disciples.wieldirium": "Wieldirium"
 }
