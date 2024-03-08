@@ -1,8 +1,13 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "wontons_disciples:block/wontonium_ore_face",
-    "particle": "wontons_disciples:block/wontonium_ore_face"
+    "down": "wontons_disciples:block/wontonium_ore_face",
+    "up": "wontons_disciples:block/wontonium_ore_face",
+    "north": "wontons_disciples:block/wontonium_ore_face",
+    "east": "wontons_disciples:block/wontonium_ore_face",
+    "south": "wontons_disciples:block/wontonium_ore_face",
+    "west": "wontons_disciples:block/wontonium_ore_face",
+    "particle": "wontons_disciples:block/rrer"
   },
   "render_type": "solid"
 }

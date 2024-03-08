@@ -9,10 +9,10 @@
       "registry_name": "wontoniumore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java",
-          "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
-          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
+          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json",
+          "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
+          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -28,6 +28,21 @@
         "files": []
       },
       "path": "~/Miscelanious/Others"
+    },
+    {
+      "name": "RawWontonium",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_wontonium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wontonsdisciples/item/RawWontoniumItem.java",
+          "src/main/resources/assets/wontons_disciples/models/item/raw_wontonium.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -35,7 +50,8 @@
   "language_map": {
     "en_us": {
       "item_group.wontons_disciples.wontonscollectibles": "Wonton\u0027s Collectibles",
-      "block.wontons_disciples.wontoniumore": "Wontonium Ore"
+      "block.wontons_disciples.wontoniumore": "Wontonium Ore",
+      "item.wontons_disciples.raw_wontonium": "Raw Wontonium"
     }
   },
   "foldersRoot": {
