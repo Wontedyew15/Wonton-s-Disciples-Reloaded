@@ -1,9 +1,22 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Wontonscollectibles",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wontonscollectibles",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.wontons_disciples.wontonscollectibles": "Wonton\u0027s Collectibles"
+    }
   },
   "foldersRoot": {
     "name": "~",

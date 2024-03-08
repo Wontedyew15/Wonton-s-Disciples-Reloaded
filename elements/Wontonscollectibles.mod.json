@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Wonton's Collectibles",
+    "icon": {
+      "value": "Blocks.STONE#5"
+    },
+    "showSearch": false
+  }
+}
