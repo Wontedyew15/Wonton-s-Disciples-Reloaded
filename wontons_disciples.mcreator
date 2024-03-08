@@ -9,10 +9,10 @@
       "registry_name": "wontoniumore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java",
-          "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
+          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
-          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
+          "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
+          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -28,6 +28,23 @@
         "files": []
       },
       "path": "~/Miscelanious/Others"
+    },
+    {
+      "name": "Wieldirium",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wieldirium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wontonsdisciples/block/WieldiriumBlock.java",
+          "src/main/resources/assets/wontons_disciples/blockstates/wieldirium.json",
+          "src/main/resources/assets/wontons_disciples/models/item/wieldirium.json",
+          "src/main/resources/assets/wontons_disciples/models/block/wieldirium.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -35,7 +52,8 @@
   "language_map": {
     "en_us": {
       "item_group.wontons_disciples.wontonscollectibles": "Wonton\u0027s Collectibles",
-      "block.wontons_disciples.wontoniumore": "Wontonium Ore"
+      "block.wontons_disciples.wontoniumore": "Wontonium Ore",
+      "block.wontons_disciples.wieldirium": "Wieldirium"
     }
   },
   "foldersRoot": {
@@ -54,6 +72,10 @@
           },
           {
             "name": "Particles",
+            "children": []
+          },
+          {
+            "name": "Recipies",
             "children": []
           },
           {
