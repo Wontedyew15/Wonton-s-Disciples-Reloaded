@@ -14,8 +14,7 @@
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
         ]
-      },
-      "path": "~/blocks"
+      }
     },
     {
       "name": "Wontonscollectibles",
@@ -40,27 +39,36 @@
     "name": "~",
     "children": [
       {
-        "name": "blocks",
+        "name": "Items",
         "children": []
       },
       {
-        "name": "items",
+        "name": "Miscelanious",
+        "children": [
+          {
+            "name": "Loot Tables",
+            "children": []
+          },
+          {
+            "name": "Particles",
+            "children": []
+          },
+          {
+            "name": "Others",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Textures",
         "children": []
       },
       {
-        "name": "textures",
+        "name": "Entities",
         "children": []
       },
       {
-        "name": "entities",
-        "children": []
-      },
-      {
-        "name": "particles",
-        "children": []
-      },
-      {
-        "name": "loot tables",
+        "name": "Blocks",
         "children": []
       }
     ]
