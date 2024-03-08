@@ -14,7 +14,8 @@
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
         ]
-      }
+      },
+      "path": "~/blocks"
     },
     {
       "name": "Wontonscollectibles",
