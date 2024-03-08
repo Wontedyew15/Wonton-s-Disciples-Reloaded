@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wontons_disciples:item/wielderium_gem_texture"
+  }
+}
