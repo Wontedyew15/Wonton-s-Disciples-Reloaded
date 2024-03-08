@@ -9,13 +9,13 @@
       "registry_name": "wontoniumore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java",
-          "src/main/resources/data/wontons_disciples/worldgen/configured_feature/wontoniumore.json",
-          "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
+          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json",
           "src/main/resources/assets/wontons_disciples/blockstates/wontoniumore.json",
-          "src/main/resources/data/wontons_disciples/worldgen/placed_feature/wontoniumore.json",
+          "src/main/resources/assets/wontons_disciples/models/block/wontoniumore.json",
           "src/main/resources/data/wontons_disciples/forge/biome_modifier/wontoniumore_biome_modifier.json",
-          "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
+          "src/main/resources/data/wontons_disciples/worldgen/placed_feature/wontoniumore.json",
+          "src/main/java/net/mcreator/wontonsdisciples/block/WontoniumoreBlock.java",
+          "src/main/resources/data/wontons_disciples/worldgen/configured_feature/wontoniumore.json"
         ]
       },
       "path": "~/Blocks"
@@ -110,8 +110,7 @@
         "files": [
           "src/main/resources/data/wontons_disciples/loot_tables/blocks/wontoniumoreloottable.json"
         ]
-      },
-      "path": "~/miscellaneous/Loot Tables"
+      }
     }
   ],
   "variable_elements": [],
@@ -121,6 +120,7 @@
       "item.wontons_disciples.wielderium": "Wielderium",
       "item_group.wontons_disciples.wontonscollectibles": "Wonton\u0027s Collectibles",
       "block.wontons_disciples.wontoniumore": "Wontonium Ore",
+      "item.wontons_disciples.raw_wontonium": "Raw Wontonium",
       "block.wontons_disciples.wieldirium": "Wieldirium"
     }
   },
