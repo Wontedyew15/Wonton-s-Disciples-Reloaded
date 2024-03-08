@@ -35,6 +35,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "WielderiumPlayerFinishesUsingItem"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
@@ -42,12 +45,12 @@
     },
     "isFood": true,
     "nutritionalValue": 4,
-    "saturation": 2.0,
+    "saturation": 4.5,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat"
   }
 }
