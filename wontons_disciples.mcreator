@@ -83,6 +83,35 @@
         ]
       },
       "path": "~/Miscelanious/Procedures"
+    },
+    {
+      "name": "RawWontonium",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_wontonium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wontons_disciples/models/item/raw_wontonium.json",
+          "src/main/java/net/mcreator/wontonsdisciples/item/RawWontoniumItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Wontoniumoreloottable",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wontoniumoreloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wontons_disciples/loot_tables/blocks/wontoniumoreloottable.json"
+        ]
+      },
+      "path": "~/miscellaneous/Loot Tables"
     }
   ],
   "variable_elements": [],
