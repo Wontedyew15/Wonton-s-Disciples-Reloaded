@@ -35,7 +35,31 @@
     "name": "~",
     "children": [
       {
+        "name": "particles",
+        "children": []
+      },
+      {
+        "name": "entities",
+        "children": []
+      },
+      {
         "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "textures",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "loot tables",
+        "children": []
+      },
+      {
+        "name": "blocks",
         "children": []
       }
     ]
