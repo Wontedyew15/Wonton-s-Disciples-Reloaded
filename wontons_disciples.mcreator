@@ -14,14 +14,22 @@
           "src/main/resources/assets/wontons_disciples/models/item/wontoniumore.json"
         ]
       }
+    },
+    {
+      "name": "Wontonscollectibles",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wontonscollectibles",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.wontons_disciples.wontoniumore": "Wontonium Ore"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
