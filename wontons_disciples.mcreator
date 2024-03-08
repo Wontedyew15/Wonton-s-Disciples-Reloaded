@@ -42,9 +42,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/wontonsdisciples/block/WieldiriumBlock.java",
-          "src/main/resources/assets/wontons_disciples/models/block/wieldirium.json",
           "src/main/resources/assets/wontons_disciples/blockstates/wieldirium.json",
-          "src/main/resources/assets/wontons_disciples/models/item/wieldirium.json"
+          "src/main/resources/assets/wontons_disciples/models/item/wieldirium.json",
+          "src/main/resources/assets/wontons_disciples/models/block/wieldirium.json"
         ]
       },
       "path": "~/Blocks"
@@ -58,11 +58,31 @@
       "registry_name": "wielderium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/wontons_disciples/models/item/wielderium.json",
-          "src/main/java/net/mcreator/wontonsdisciples/item/WielderiumItem.java"
+          "src/main/java/net/mcreator/wontonsdisciples/item/WielderiumItem.java",
+          "src/main/resources/assets/wontons_disciples/models/item/wielderium.json"
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "WielderiumPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wielderium_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wontonsdisciples/procedures/WielderiumPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Miscelanious/Procedures"
     }
   ],
   "variable_elements": [],
@@ -99,6 +119,10 @@
           },
           {
             "name": "Recipies",
+            "children": []
+          },
+          {
+            "name": "Procedures",
             "children": []
           }
         ]
